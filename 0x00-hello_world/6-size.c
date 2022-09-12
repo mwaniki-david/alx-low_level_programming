@@ -8,10 +8,10 @@
  */
 int main(void)
 {	
-	char c;
-	int i;
-	long int 1i;
-	long long int 11i;
+	char(c);
+	int (i);
+	long int(1)i;
+	long long (11)i;
 	float f;
 
 	printf("size of a char: %11d byte(s)\n", sizeof(c));
