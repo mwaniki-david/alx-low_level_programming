@@ -1,5 +1,4 @@
-#include "0-reset_to_98.c"
-#include "stdio.h"
+#include <stdio.h>
 /**
  * main -chek the code
  * return Always 0
