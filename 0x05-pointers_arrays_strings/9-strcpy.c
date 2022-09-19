@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strcpy: copy paste sting
+ * _strcpy - copy paste sting
  * @dest:destination
  * @src:source
  *
- * return: destination
+ * Return: destination
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -16,5 +16,6 @@ char *_strcpy(char *dest, char *src)
 		inc++;
 	}
 	*(dest + inc) = '\0';
+
 	return (dest);
 }

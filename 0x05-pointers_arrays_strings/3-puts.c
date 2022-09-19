@@ -6,14 +6,10 @@
  * Description: print a screen
  * on success:return no error
  */
-void _puts(char *str)
+int main(void)
 {
-	int i = 0;
-
-	while (*(str + i) != '\0')
-	{
-		putchar(*(str + i));
-		i++;
-	}
-	putchar (10);
+	char *str;
+	str = "Holberton!";
+	_puts(str);
+	return (0);
 }
