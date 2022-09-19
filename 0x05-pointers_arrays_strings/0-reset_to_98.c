@@ -1,17 +1,10 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main -chek the code
- * return Always 0
+ * reset_to_98
+ * @n parameter
+ * return:nothing
  */
-int main(void)
+void reset_to_98(int *n);
 {
-	int n;
-	n=420;
-	printf("n=%d\n" ,n );
-	int *p;
-	*p =&n;
-	p=98;
-	printf("n=%d\n" ,n );
-	return (0);
+	*n=98
 }
-
