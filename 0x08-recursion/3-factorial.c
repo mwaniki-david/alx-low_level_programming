@@ -11,6 +11,6 @@ int factorial(int n)
 
 	if (n < 0)
 		return (-1);
-	next_factorial = factorial(n -1):
+	next_factorial = factorial(n -1);
 		return(n * next_factorial);
 }
