@@ -4,7 +4,7 @@
  * @n: number to be used
  * Return :the factorial of the number
  */
-in factorial(int n)
+int factorial(int n)
 {
 	int next_factorial;
 
