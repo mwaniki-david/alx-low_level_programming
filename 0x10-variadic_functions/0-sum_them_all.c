@@ -7,21 +7,18 @@
  *
  * Return: sum of its  parameters
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list valist;
-	unsigned int i;
-	int sum = 0;
+	va_list nums;
+	unsigned int index,sum = 0;
+	
+	va_start(nums, n);
 
-	if (n == 0)
-		return (0);
+	for (index =0; index < n; index++)
+		sum += va_arg(nums, int);
 
-	va_start(valist, n);
-
-	for (i =0; i < n; i++)
-		sum += va_arg(valist, int);
-
-	va_end(valist);
+	va_end(nums);
 
 	return (sum);
 }
